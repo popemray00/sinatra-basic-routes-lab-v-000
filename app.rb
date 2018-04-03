@@ -6,4 +6,5 @@ class App < Sinatra::Base
     @name = name.all
 
     erb :'name/index
+  end
 end
